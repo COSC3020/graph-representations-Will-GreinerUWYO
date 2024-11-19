@@ -11,6 +11,7 @@ function convertToAdjList(adjMatrix) {
     for (let row = 0; row < adjMatrix.length; row++) {
         // add a new linked list to the adjList with a header of the row value
         let newRow = new LinkedList();
+        newRow.add(row);
         for (let column = 0; column < adjMatrix.length; column++) {
             if (adjMatrix[row][column] === 1) {
                 newRow.add(column);
