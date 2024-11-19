@@ -22,4 +22,4 @@ analyze it as above.
 
 ## Sources and Plagarism Statement
 Used the following videos from the YouTube channel BroCode to help me with my understanding of the datastructures at play [Graphs](https://www.youtube.com/watch?v=-VgHk7UMPP4) and [2D Arrays](https://www.youtube.com/watch?v=SmJNeJuLmVo)
-Used this video from freeCodeCamp.org [LinkedList](https://www.youtube.com/watch?v=9YddVVsdG5A) to help with my LinkedList implementation.
+Used this video from freeCodeCamp.org [LinkedList](https://www.youtube.com/watch?v=9YddVVsdG5A) to give me my LinkedList implementation.
