@@ -9,12 +9,11 @@ function convertToAdjList(adjMatrix) {
     // each vertex need its own vertice, which I will make using a linked list for each row index.
     let adjList = [];
     for (let row = 0; row < adjMatrix.length; row++) {
-        // add a new linked list to the adjList with a header of the row value
+        // add a new array to the adjList
         let newRow = [];
-        //let newRow = new LinkedList();
         for (let column = 0; column < adjMatrix.length; column++) {
             if (adjMatrix[row][column] === 1) {
-                newRow.add(column);
+                newRow.push(column);
             }
         }
         adjList[row] = newRow;
