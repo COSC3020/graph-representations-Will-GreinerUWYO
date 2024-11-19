@@ -15,6 +15,9 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+The runtime complexity of this conversion is $O(n^2)$ because the for loop runs once for each row and column. Each node has a row and a column, so the number of rows = number of nodes.
+This is based soley on the number of vertices, nothing here is based on number of edges.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
